@@ -1,17 +1,17 @@
 
 :root{
-    --cor-de-fundo: #180202;
+    --cor-de-fundo: black;
     --branco-principal: #833f22;
-    --fundo-degrade: #5c2913,#0a0706;
+    --fundo-degrade: #0a0706,#5c2913;
 }
 
 header{
     display: flex;
 }
 .cabecalho{
-    background-color: #0a0605
-    color: var(--branco-principal)
-    font-size: 15px;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 20px;
     text-align: justify; 
 }
 
@@ -57,9 +57,14 @@ header{
 
 
 @media screen and (min-width: 820px) {
-    
+    .cabecalho{
+        color: #883816
+    }
 }
 
 @media screen and (min-width: 1024px) {
-   
+   .cabecalho{ background-color: #0a0605;
+
+   }
 }
+  
